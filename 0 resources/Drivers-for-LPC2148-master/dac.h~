@@ -1,0 +1,11 @@
+#include<lpc214x.h>
+initDAC()
+{
+	PINSEL1|=0x00080000;
+}
+
+toDAC(int value)
+{
+	DACR=value;
+	delay(5);
+}

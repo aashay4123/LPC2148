@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+I:\project\test_for_GSM\at.uvproj
+Project File Date:  10/23/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling gsmAT.c...
+gsmAT.c(157): warning:  #550-D: variable "ch_1" was set but never used
+gsmAT.c:        char ch_1;
+gsmAT.c:             ^
+gsmAT.c: gsmAT.c: 1 warning, 0 errors
+compiling lcd.c...
+linking...
+Program Size: Code=2576 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"at.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling gsmAT.c...
+gsmAT.c(157): warning:  #550-D: variable "ch_1" was set but never used
+gsmAT.c:        char ch_1;
+gsmAT.c:             ^
+gsmAT.c: gsmAT.c: 1 warning, 0 errors
+compiling lcd.c...
+linking...
+Program Size: Code=2580 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"at.axf" - 0 Error(s), 1 Warning(s).

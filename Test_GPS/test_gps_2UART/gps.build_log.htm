@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+G:\project\test_gps_gsm_16x2\gps.uvproj
+Project File Date:  10/26/2014
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling gps.c...
+gps.c(162): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+                                                                sscanf(time_string, "%ld", &utcTime);//READS FROM timestring and copies to utcTime in long float
+gps.c(167): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                if(utcHour >= 0 && utcHour <= 18) 
+gps.c(200): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+                                                                sscanf(latitudestring, "%f", &latitude);
+gps.c(36): warning:  #177-D: variable "istTime" was declared but never referenced
+    unsigned  long utcTime, istTime;            /* Coordinated Universal Time and IST */
+gps.c(296): warning:  #550-D: variable "ch_1" was set but never used
+        char ch_1;
+gps.c: 5 warnings, 0 errors
+compiling lcd.c...
+linking...
+Program Size: Code=14152 RO-data=472 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\gps.axf" - 0 Error(s), 5 Warning(s).
+</pre>
+</body>
+</html>
