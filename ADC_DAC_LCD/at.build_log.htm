@@ -1,0 +1,157 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Aashay phirke, student, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.27.1.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARM.DLL V5.27.1.0
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+E:\work\lpc2148\resources\Emtron-ARM7\4-LPC2148_example_codes\LPC2148_example_codes\5_ADC_DAC_LCD\at.uvproj
+Project File Date:  05/23/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling gsmAT.c...
+gsmAT.c(5): error:  #5: cannot open source input file "uMQTTBroker.h": No such file or directory
+  #include "uMQTTBroker.h"
+gsmAT.c: 0 warnings, 1 error
+compiling uMQTTBroker.cpp...
+..\2_Test_LCD\uMQTTBroker.h(64): error:  #20: identifier "IPAddress" is undefined
+      virtual bool onConnect(IPAddress addr, uint16_t client_count);
+..\2_Test_LCD\uMQTTBroker.h(65): error:  #20: identifier "String" is undefined
+      virtual bool onAuth(String username, String password);
+..\2_Test_LCD\uMQTTBroker.h(65): error:  #20: identifier "String" is undefined
+      virtual bool onAuth(String username, String password);
+..\2_Test_LCD\uMQTTBroker.h(66): error:  #20: identifier "String" is undefined
+      virtual void onData(String topic, const char *data, uint32_t length);
+..\2_Test_LCD\uMQTTBroker.h(68): error:  #20: identifier "String" is undefined
+      virtual bool publish(String topic, uint8_t* data, uint16_t data_length, uint8_t qos=0, uint8_t retain=0);
+..\2_Test_LCD\uMQTTBroker.h(69): error:  #20: identifier "String" is undefined
+      virtual bool publish(String topic, String data, uint8_t qos=0, uint8_t retain=0);
+..\2_Test_LCD\uMQTTBroker.h(69): error:  #20: identifier "String" is undefined
+      virtual bool publish(String topic, String data, uint8_t qos=0, uint8_t retain=0);
+..\2_Test_LCD\uMQTTBroker.h(70): error:  #20: identifier "String" is undefined
+      virtual bool subscribe(String topic, uint8_t qos=0);
+..\2_Test_LCD\uMQTTBroker.h(71): error:  #20: identifier "String" is undefined
+      virtual bool unsubscribe(String topic);
+..\2_Test_LCD\uMQTTBroker.cpp(8): error:  #20: identifier "IPAddress" is undefined
+  	IPAddress connAddr(pesp_conn->proto.tcp->remote_ip[0], pesp_conn->proto.tcp->remote_ip[1],
+..\2_Test_LCD\uMQTTBroker.cpp(8): error:  #18: expected a ")"
+  	IPAddress connAddr(pesp_conn->proto.tcp->remote_ip[0], pesp_conn->proto.tcp->remote_ip[1],
+..\2_Test_LCD\uMQTTBroker.cpp(15): error:  #20: identifier "String" is undefined
+  	return TheBroker->onAuth((String)username, (String)password);
+..\2_Test_LCD\uMQTTBroker.cpp(15): error:  #165: too few arguments in function call
+  	return TheBroker->onAuth((String)username, (String)password);
+..\2_Test_LCD\uMQTTBroker.cpp(15): error:  #18: expected a ")"
+  	return TheBroker->onAuth((String)username, (String)password);
+..\2_Test_LCD\uMQTTBroker.cpp(19): error:  #28: expression must have a constant value
+  	char topic_str[topic_len+1];
+..\2_Test_LCD\uMQTTBroker.cpp(23): error:  #20: identifier "String" is undefined
+  	TheBroker->onData((String)topic_str, data, length);
+..\2_Test_LCD\uMQTTBroker.cpp(23): error:  #165: too few arguments in function call
+  	TheBroker->onData((String)topic_str, data, length);
+..\2_Test_LCD\uMQTTBroker.cpp(23): error:  #18: expected a ")"
+  	TheBroker->onData((String)topic_str, data, length);
+..\2_Test_LCD\uMQTTBroker.cpp(41): error:  #20: identifier "IPAddress" is undefined
+      bool uMQTTBroker::onConnect(IPAddress addr, uint16_t client_count) {
+..\2_Test_LCD\uMQTTBroker.cpp(45): error:  #20: identifier "String" is undefined
+      bool uMQTTBroker::onAuth(String username, String password) {
+..\2_Test_LCD\uMQTTBroker.cpp(45): error:  #20: identifier "String" is undefined
+      bool uMQTTBroker::onAuth(String username, String password) {
+..\2_Test_LCD\uMQTTBroker.cpp(49): error:  #20: identifier "String" is undefined
+      void uMQTTBroker::onData(String topic, const char *data, uint32_t length) {
+..\2_Test_LCD\uMQTTBroker.cpp(52): error:  #20: identifier "String" is undefined
+      bool uMQTTBroker::publish(String topic, uint8_t* data, uint16_t data_length, uint8_t qos, uint8_t retain) {
+..\2_Test_LCD\uMQTTBroker.cpp(56): error:  #20: identifier "String" is undefined
+      bool uMQTTBroker::publish(String topic, String data, uint8_t qos, uint8_t retain) {
+..\2_Test_LCD\uMQTTBroker.cpp(56): error:  #20: identifier "String" is undefined
+      bool uMQTTBroker::publish(String topic, String data, uint8_t qos, uint8_t retain) {
+..\2_Test_LCD\uMQTTBroker.cpp(60): error:  #20: identifier "String" is undefined
+      bool uMQTTBroker::subscribe(String topic, uint8_t qos) {
+..\2_Test_LCD\uMQTTBroker.cpp(64): error:  #20: identifier "String" is undefined
+      bool uMQTTBroker::unsubscribe(String topic) {
+..\2_Test_LCD\uMQTTBroker.cpp: 0 warnings, 27 errors
+compiling IPAddress.cpp...
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\core_esp8266_version.h(75): error:  #65: expected a ";"
+  bool isDecimal (const char c)
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\core_esp8266_version.h(128): error:  #65: expected a ";"
+  int coreVersionMajor ()
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(36): error:  #18: expected a ")"
+      SERIAL_5N1 = UART_5N1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(37): error:  #18: expected a ")"
+      SERIAL_6N1 = UART_6N1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(38): error:  #18: expected a ")"
+      SERIAL_7N1 = UART_7N1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(39): error:  #18: expected a ")"
+      SERIAL_8N1 = UART_8N1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(40): error:  #18: expected a ")"
+      SERIAL_5N2 = UART_5N2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(41): error:  #18: expected a ")"
+      SERIAL_6N2 = UART_6N2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(42): error:  #18: expected a ")"
+      SERIAL_7N2 = UART_7N2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(43): error:  #18: expected a ")"
+      SERIAL_8N2 = UART_8N2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(44): error:  #18: expected a ")"
+      SERIAL_5E1 = UART_5E1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(45): error:  #18: expected a ")"
+      SERIAL_6E1 = UART_6E1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(46): error:  #18: expected a ")"
+      SERIAL_7E1 = UART_7E1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(47): error:  #18: expected a ")"
+      SERIAL_8E1 = UART_8E1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(48): error:  #18: expected a ")"
+      SERIAL_5E2 = UART_5E2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(49): error:  #18: expected a ")"
+      SERIAL_6E2 = UART_6E2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(50): error:  #18: expected a ")"
+      SERIAL_7E2 = UART_7E2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(51): error:  #18: expected a ")"
+      SERIAL_8E2 = UART_8E2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(52): error:  #18: expected a ")"
+      SERIAL_5O1 = UART_5O1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(53): error:  #18: expected a ")"
+      SERIAL_6O1 = UART_6O1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(54): error:  #18: expected a ")"
+      SERIAL_7O1 = UART_7O1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(55): error:  #18: expected a ")"
+      SERIAL_8O1 = UART_8O1,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(56): error:  #18: expected a ")"
+      SERIAL_5O2 = UART_5O2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(57): error:  #18: expected a ")"
+      SERIAL_6O2 = UART_6O2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(58): error:  #18: expected a ")"
+      SERIAL_7O2 = UART_7O2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(59): error:  #18: expected a ")"
+      SERIAL_8O2 = UART_8O2,
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\HardwareSerial.h(196): error:  #321: data member initializer is not allowed
+      uart_t* _uart = nullptr;
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\Esp.h(157): error:  #20: identifier "nullptr" is undefined
+          void getHeapStats(uint32_t* free = nullptr, uint16_t* max = nullptr, uint8_t* frag = nullptr);
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\Updater.h(52): error:  #283: qualified name is not allowed
+      typedef std::function<void(size_t, size_t)> THandlerFunction_Progress;
+C:\Keil_v5\ARM\ARMCC\Bin\..\include\Updater.h(52): error:  #65: expected a ";"
+      typedef std::function<void(size_t, size_t)> THandlerFunction_Progress;
+..\1_Blinky\IPAddress.cpp: 0 warnings, 30 errors
+".\at.axf" - 58 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

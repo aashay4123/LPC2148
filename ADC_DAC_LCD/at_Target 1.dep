@@ -1,0 +1,131 @@
+Dependencies for Project 'at', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4BB174AE)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 527"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\gsmAT.c)(0x5CE61E64)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="527"-o .\gsmat.o --omf_browse .\gsmat.crf --depend .\gsmat.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+I (lcd.h)(0x543B0CD4)
+I (adc.h)(0x4B26FCAC)
+I (C:\Keil_v5\ARM\ARMCC\include\MQTT.h)(0x5CE53A0D)
+I (C:\Keil_v5\ARM\ARMCC\include\user_config.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\mqtt_msg.h)(0x5CE53605)
+I (C:\Keil_v5\ARM\ARMCC\include\mqtt\defaults.h)(0x5C72EE85)
+I (C:\Keil_v5\ARM\ARMCC\include\c_types.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EF052)
+I (C:\Keil_v5\ARM\ARMCC\include\sys\cdefs.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\machine\_default_types.h)(0x5CE5296F)
+I (C:\Keil_v5\ARM\ARMCC\include\sys\features.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\user_interface.h)(0x5CE537A0)
+I (C:\Keil_v5\ARM\ARMCC\include\os_type.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\ets_sys.h)(0x5CE53863)
+I (C:\Keil_v5\ARM\ARMCC\include\eagle_soc.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\ipv4_addr.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\init.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\opt.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwipopts.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\debug.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\arch.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\arch\cc.h)(0x5CE53961)
+I (C:\Keil_v5\ARM\ARMCC\include\osapi.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\sys\pgmspace.h)(0x5CE53998)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\ip_addr.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\def.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\queue.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\spi_flash.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\spi_flash_geometry.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\gpio.h)(0x5CE316BD)
+F (.\lcd.c)(0x55C08E92)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="527"-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214X.h)(0x559CFE30)
+F (.\adc.c)(0x4EA0ED44)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="527"-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (adc.h)(0x4B26FCAC)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214x.H)(0x559CFE30)
+F (..\2_Test_LCD\uMQTTBroker.cpp)(0x5C72EE85)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="527"-o .\umqttbroker.o --omf_browse .\umqttbroker.crf --depend .\umqttbroker.d)
+I (..\2_Test_LCD\uMQTTBroker.h)(0x5CE61F4F)
+I (C:\Keil_v5\ARM\ARMCC\include\user_interface.h)(0x5CE537A0)
+I (C:\Keil_v5\ARM\ARMCC\include\os_type.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\ets_sys.h)(0x5CE53863)
+I (C:\Keil_v5\ARM\ARMCC\include\c_types.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EF052)
+I (C:\Keil_v5\ARM\ARMCC\include\sys\cdefs.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\machine\_default_types.h)(0x5CE5296F)
+I (C:\Keil_v5\ARM\ARMCC\include\sys\features.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\eagle_soc.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\ipv4_addr.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\init.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\opt.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwipopts.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\debug.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\arch.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\arch\cc.h)(0x5CE53961)
+I (C:\Keil_v5\ARM\ARMCC\include\osapi.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\user_config.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\sys\pgmspace.h)(0x5CE53998)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\ip_addr.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\def.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\queue.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\spi_flash.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\spi_flash_geometry.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\gpio.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\espconn.h)(0x5CE533AF)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip-err-t.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\lwip\err.h)(0x5CE316BD)
+F (..\1_Blinky\IPAddress.cpp)(0x5CE316BD)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="527"-o .\ipaddress.o --omf_browse .\ipaddress.crf --depend .\ipaddress.d)
+I (C:\Keil_v5\ARM\ARMCC\include\Arduino.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EF052)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib_noniso.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\binary.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\esp8266_peri.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\c_types.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\sys\cdefs.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\machine\_default_types.h)(0x5CE5296F)
+I (C:\Keil_v5\ARM\ARMCC\include\sys\features.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\esp8266_undocumented.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\twi.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\core_esp8266_features.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\core_esp8266_version.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\core_version.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\algorithm)(0x564D7186)
+I (C:\Keil_v5\ARM\ARMCC\include\memory)(0x564D7186)
+I (C:\Keil_v5\ARM\ARMCC\include\new)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\exception)(0x599EF052)
+I (C:\Keil_v5\ARM\ARMCC\include\utility)(0x4EB1CE0E)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_defs.h)(0x564D7186)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_config.h)(0x564D7186)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\config.h)(0x53107D64)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterbase.h)(0x564D7186)
+I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_mutex.h)(0x564D7186)
+I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x564D7186)
+I (C:\Keil_v5\ARM\ARMCC\include\cstdlib)(0x599EF052)
+I (C:\Keil_v5\ARM\ARMCC\include\pgmspace.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\sys\pgmspace.h)(0x5CE53998)
+I (C:\Keil_v5\ARM\ARMCC\include\WCharacter.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\WString.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\HardwareSerial.h)(0x5CE61C05)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EF056)
+I (C:\Keil_v5\ARM\ARMCC\include\Stream.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\Print.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\Printable.h)(0x5CE6193A)
+I (C:\Keil_v5\ARM\ARMCC\include\uart.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\Esp.h)(0x5CE61C2B)
+I (C:\Keil_v5\ARM\ARMCC\include\Updater.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\flash_utils.h)(0x5CE61C64)
+I (C:\Keil_v5\ARM\ARMCC\include\MD5Builder.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\md5.h)(0x5CE316BD)
+I (C:\Keil_v5\ARM\ARMCC\include\functional)(0x564D7186)

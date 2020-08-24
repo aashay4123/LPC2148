@@ -1,0 +1,18 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\spit-vlsi\Desktop\12_Test_GSM\esp8266.uvproj
+Project File Date:  03/27/2016
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling lcd.c...
+compiling serial.c...
+serial.c(50): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=1456 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"esp8266.axf" - 0 Error(s), 1 Warning(s).

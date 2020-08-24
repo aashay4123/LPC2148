@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Aashay phirke, student, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.27.1.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARM.DLL V5.27.1.0
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+E:\work\lpc2148\resources\Emtron-ARM7\4-LPC2148_example_codes\LPC2148_example_codes\Vidur_Wi-Fi\WIFI_2\WIFI_CLIENT\at.uvproj
+Project File Date:  05/20/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling gsmAT.c...
+utility/netapp.h(226): warning:  #1295-D: Deprecated declaration netapp_ping_stop - give arg types
+  extern long netapp_ping_stop();
+utility/netapp.h(251): warning:  #1295-D: Deprecated declaration netapp_ping_report - give arg types
+  extern void netapp_ping_report();
+utility/netapp.h(297): warning:  #1295-D: Deprecated declaration netapp_arp_flush - give arg types
+  extern long netapp_arp_flush();
+utility/board.h(42): warning:  #1295-D: Deprecated declaration pio_init - give arg types
+  void pio_init();
+utility/board.h(47): warning:  #1295-D: Deprecated declaration WlanInterruptEnable - give arg types
+  void WlanInterruptEnable();
+utility/board.h(48): warning:  #1295-D: Deprecated declaration WlanInterruptDisable - give arg types
+  void WlanInterruptDisable();
+utility/patch.h(5): warning:  #1-D: last line of file ends without a newline
+  char *sendWLFWPatch(unsigned long *Length);
+utility/tcp.h(51): warning:  #1295-D: Deprecated declaration shutdownServer - give arg types
+  void shutdownServer();
+IPAddress.h(29): error:  #20: identifier "class" is undefined
+  class IPAddress : public Printable {
+IPAddress.h(29): error:  #65: expected a ";"
+  class IPAddress : public Printable {
+IPAddress.h(54): warning:  #12-D: parsing restarts here after previous syntax error
+      operator uint32_t() const { return _address.dword; };
+IPAddress.h(55): error:  #20: identifier "bool" is undefined
+      bool operator==(const IPAddress& addr) const { return _address.dword == addr._address.dword; };
+IPAddress.h(55): error:  #65: expected a ";"
+      bool operator==(const IPAddress& addr) const { return _address.dword == addr._address.dword; };
+IPAddress.h(56): error:  #20: identifier "bool" is undefined
+      bool operator==(const uint8_t* addr) const;
+IPAddress.h(56): error:  #65: expected a ";"
+      bool operator==(const uint8_t* addr) const;
+IPAddress.h(59): error:  #88: array of functions is not allowed
+      uint8_t operator[](int index) const { return _address.bytes[index]; };
+IPAddress.h(59): error:  #65: expected a ";"
+      uint8_t operator[](int index) const { return _address.bytes[index]; };
+IPAddress.h(60): error:  #40: expected an identifier
+      uint8_t& operator[](int index) { return _address.bytes[index]; };
+IPAddress.h(60): error:  #88: array of functions is not allowed
+      uint8_t& operator[](int index) { return _address.bytes[index]; };
+IPAddress.h(60): error:  #65: expected a ";"
+      uint8_t& operator[](int index) { return _address.bytes[index]; };
+IPAddress.h(63): error:  #77-D: this declaration has no storage class or type specifier
+      IPAddress& operator=(const uint8_t *address);
+IPAddress.h(63): error:  #65: expected a ";"
+      IPAddress& operator=(const uint8_t *address);
+IPAddress.h(64): error:  #77-D: this declaration has no storage class or type specifier
+      IPAddress& operator=(uint32_t address);
+IPAddress.h(64): error:  #65: expected a ";"
+      IPAddress& operator=(uint32_t address);
+IPAddress.h(66): error:  #20: identifier "virtual" is undefined
+      virtual size_t printTo(Print& p) const;
+IPAddress.h(66): error:  #101: "size_t" has already been declared in the current scope
+      virtual size_t printTo(Print& p) const;
+IPAddress.h(66): error:  #65: expected a ";"
+      virtual size_t printTo(Print& p) const;
+IPAddress.h(68): error:  #20: identifier "friend" is undefined
+      friend class EthernetClass;
+IPAddress.h(68): error:  #65: expected a ";"
+      friend class EthernetClass;
+IPAddress.h(69): error:  #20: identifier "friend" is undefined
+      friend class UDP;
+IPAddress.h(69): error:  #65: expected a ";"
+      friend class UDP;
+IPAddress.h(70): error:  #20: identifier "friend" is undefined
+      friend class Client;
+IPAddress.h(70): error:  #65: expected a ";"
+      friend class Client;
+IPAddress.h(71): error:  #20: identifier "friend" is undefined
+      friend class Server;
+IPAddress.h(71): error:  #65: expected a ";"
+      friend class Server;
+IPAddress.h(72): error:  #20: identifier "friend" is undefined
+      friend class DhcpClass;
+IPAddress.h(72): error:  #65: expected a ";"
+      friend class DhcpClass;
+IPAddress.h(73): error:  #20: identifier "friend" is undefined
+      friend class DNSClient;
+IPAddress.h(73): error:  #65: expected a ";"
+      friend class DNSClient;
+gsmAT.c: 9 warnings, 30 errors
+".\at.axf" - 30 Error(s), 9 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

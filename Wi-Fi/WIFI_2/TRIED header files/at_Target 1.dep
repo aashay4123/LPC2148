@@ -1,0 +1,32 @@
+Dependencies for Project 'at', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A025818)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 527"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\gsmAT.c)(0x5CE27FB4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="527"-o .\gsmat.o --omf_browse .\gsmat.crf --depend .\gsmat.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EF054)
+I (lcd.h)(0x543B0CD4)
+I (WiFi.h)(0x5CE27B6A)
+I (utility/SimplelinkWifi.h)(0x5BF553A1)
+I (utility/hci.h)(0x5BF553A1)
+I (utility/cc3000_common.h)(0x5BF553A1)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x599EF054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (utility/interface.h)(0x5BF553A1)
+I (utility/evnt_handler.h)(0x5BF553A1)
+I (utility/socket.h)(0x5BF553A1)
+I (utility/host_driver_version.h)(0x5BF553A1)
+I (utility/netapp.h)(0x5BF553A1)
+I (utility/nvmem.h)(0x5BF553A1)
+I (utility/security.h)(0x5BF553A1)
+I (utility/board.h)(0x5BF553A1)
+I (utility/patch.h)(0x5BF553A1)
+I (utility/wlan.h)(0x5BF553A1)
+I (utility/tcp.h)(0x5BF553A1)
+I (utility/udp.h)(0x5BF553A1)
+I (utility/wl_definitions.h)(0x5BF553A1)
+I (IPAddress.h)(0x599A7240)
+I (Printable.h)(0x5CE28007)
+I (WString.h)(0x599A7240)
+F (.\lcd.c)(0x5441DE10)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="527"-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214X.h)(0x559CFE30)

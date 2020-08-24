@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Passport\2_D_Drive_Embedded_PC\7_EmbeddedLAb20.com\Kits\Emtron_ARM_Kit\LPC2148_example_codes\LPC2148_example_codes\5_ADC_DAC_LCD\at.uvproj
+Project File Date:  08/04/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling gsmAT.c...
+gsmAT.c(11): warning:  #223-D: function "lcd_clear" declared implicitly
+gsmAT.c(14): warning:  #223-D: function "sprintf" declared implicitly
+gsmAT.c(32): warning:  #223-D: function "lcd_clear" declared implicitly
+compiling lcd.c...
+compiling adc.c...
+linking...
+Program Size: Code=2648 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"at.axf" - 0 Error(s), 3 Warning(s).

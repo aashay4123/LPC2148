@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "SIM300SendReceiveMsgs", "SIM300SendReceiveMsgs\SIM300SendReceiveMsgs.cproj", "{35CEDD89-7FB0-4D9B-8CAE-E61E812DE178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35CEDD89-7FB0-4D9B-8CAE-E61E812DE178}.Debug|AVR.ActiveCfg = Debug|AVR
+		{35CEDD89-7FB0-4D9B-8CAE-E61E812DE178}.Debug|AVR.Build.0 = Debug|AVR
+		{35CEDD89-7FB0-4D9B-8CAE-E61E812DE178}.Release|AVR.ActiveCfg = Release|AVR
+		{35CEDD89-7FB0-4D9B-8CAE-E61E812DE178}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

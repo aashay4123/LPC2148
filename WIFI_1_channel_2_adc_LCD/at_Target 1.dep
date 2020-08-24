@@ -1,0 +1,20 @@
+Dependencies for Project 'at', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x5A428386)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 517"--list .\listings\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\lcd.c)(0x55C0DBEA)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214X.h)(0x559CFE30)
+F (.\main.c)(0x5A5F32BD)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC214X.h)(0x559CFE30)
+I (Serial.h)(0x5A4682A9)
+I (adc.h)(0x4B274A04)
+I (lcd.h)(0x543B5A2C)
+I (C:\Keil_v5\ARM\ARMCC\include\String.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB4EA0)
+F (.\Serial.c)(0x5A45E63B)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\serial.o --omf_browse .\serial.crf --depend .\serial.d)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC214x.H)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (Serial.h)(0x5A4682A9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\adc.c)(0x5A5EF46D)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (adc.h)(0x4B274A04)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214x.H)(0x559CFE30)
